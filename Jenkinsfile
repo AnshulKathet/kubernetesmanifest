@@ -1,5 +1,6 @@
 node {
     def app
+    agent {label 'master'}
 
     stage('Clone repository') {
       
